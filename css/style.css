@@ -1,5 +1,7 @@
 /* ---- reset ---- */
 
+@import url("font-awesome/css/font-awesome.min.css");
+
 body {
   margin: 0;
   font:normal 75% Arial, Helvetica, sans-serif;
@@ -49,6 +51,56 @@ footer {
   padding-bottom: 60px;
   width: 100%; }
 
+  footer {
+   padding-top: 48px;
+   margin-bottom: 48px;
+   color: #303030;
+   font-size: 14px;
+   text-align: center;
+}
+
+footer a, footer a:visited {}
+footer a:hover, footer a:focus {}
+
+/* copyright */
+footer .copyright {
+    margin: 0;
+    padding: 0;
+ }
+footer .copyright li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    line-height: 24px;
+}
+.ie footer .copyright li {
+   display: inline;
+}
+footer .copyright li:before {
+    content: "\2022";
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #095153;
+}
+footer .copyright  li:first-child:before {
+    display: none;
+}
+
+/* social links */
+footer .social-links {
+   margin: 18px 0 30px 0;
+   padding: 0;
+   font-size: 30px;
+}
+footer .social-links li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    margin-left: 42px;
+}
+
+footer .social-links li:first-child { margin-left: 0; }
+
 a:link    {
   color: white; }
 
@@ -57,7 +109,6 @@ a:visited {
 
 a:hover   {
   color: white;
-  text-shadow: 0px 0px 5px rgba(0,0,0,.2);
  }
 
 a:active  {
