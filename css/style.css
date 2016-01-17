@@ -60,7 +60,7 @@ footer {
 }
 
 footer a, footer a:visited {}
-footer a:hover, footer a:focus {}
+footer a:hover, footer a:focus {color: #525252;}
 
 /* copyright */
 footer .copyright {
