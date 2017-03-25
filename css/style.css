@@ -28,7 +28,7 @@ h3 {
   font-family: -apple-system, "BlinkMacSystemFont", Helvetica, sans-serif;
   font-weight: 200;
   font-size: 1.0em;
-  color: #888D92;
+  color: #f4f4f4;
   letter-spacing: 0.25px;
   display: none;
   transition: all .3s ease 0s;
@@ -161,6 +161,15 @@ a:hover {
 
 .writing:hover {
   color: #3D5392;
+}
+
+.coolthings {
+  color: #888D92;
+  text-decoration: none;
+}
+
+.coolthings:hover {
+  color: #888D92;
 }
 
 i {
