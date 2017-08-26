@@ -3,6 +3,13 @@ html {
     /* #6E8BE0 #E0CE41 #5C246E #68D771 #A49392 #6EE0A1 #3CBEFF*/;
 }
 
+body {
+    font-family: "Avenir Next", sans-serif;
+    text-align: justify;
+    letter-spacing: -.1px;
+    padding: 0 10px;
+}
+
 h1 {
     /* display: table; */
   margin: 50 0 0 0;
@@ -18,20 +25,9 @@ h2 {
   font-family: -apple-system, "BlinkMacSystemFont", Helvetica, sans-serif;
   font-weight: 300;
   font-size: 1.5em;
-  color: #888D92;
+  color: #606060;
   letter-spacing: 0.25px;
   margin-bottom: 40px;
-}
-
-h3 {
-  margin: 0 auto;
-  font-family: -apple-system, "BlinkMacSystemFont", Helvetica, sans-serif;
-  font-weight: 200;
-  font-size: 1.0em;
-  color: #f4f4f4;
-  letter-spacing: 0.25px;
-  display: none;
-  transition: all .3s ease 0s;
 }
 
 img {
@@ -42,26 +38,15 @@ img {
 li {
   list-style-position: outside;
   margin: 0 auto;
-  font-family: -apple-system, "BlinkMacSystemFont", Helvetica, sans-serif;
+  font-family: "Avenir Next", Helvetica, sans-serif;
   font-weight: 400;
   font-size: 1.5em;
-  color: #888D92;
   letter-spacing: 0.3px;
   margin-bottom: 40px;
 }
 
 #name {
   display: inline-block;
-}
-
-#coming-soon {
-  font-size: 0.6em;
-  background: #ffefc6;
-  line-height: 11px;
-  padding: 4px 5px 5px;
-  border-radius: 3px;
-  display: inline-block;
-  margin-left: 5px;
 }
 
 .em-zap {
@@ -78,11 +63,6 @@ ol {
   padding-left: 1.2em;
   overflow: hidden;
   list-style-type: circle;
-}
-
-#lastSeen {
-  clear: left;
-  color: rgba(0, 0, 0, 0.3)
 }
 
 #projects {
@@ -102,19 +82,8 @@ ol {
   margin: 30 80 30 80;
 }
 
-#book {
-  font-weight: 400;
-}
-
 #supportingText {
   color: rgba(0, 0, 0, 0.3)
-}
-
-#state,
-#city,
-#place {
-  font-weight: 400;
-  color: #888D92; /*#B3B3B3;*/
 }
 
 a:hover {
@@ -128,10 +97,9 @@ a:hover {
 
 #detail {
   margin: 0 auto;
-  font-family: -apple-system, "BlinkMacSystemFont", Helvetica, sans-serif;
+  font-family: "Avenir Next", Helvetica, sans-serif;
   font-weight: 300;
   font-size: 0.8em;
-  color: #888D92;
   letter-spacing: -0.25px;
   margin-bottom: 40px;
 }
@@ -149,11 +117,6 @@ a:hover {
   font-weight: 400;
 }
 
-#foursquare-place {
-  text-decoration: none;
-  color:#888D92
-}
-
 .writing {
   color: #6E8BE0;
   text-decoration: none;
@@ -164,18 +127,18 @@ a:hover {
 }
 
 .coolthings {
-  color: #888D92;
+  color: #6E8BE0;
   text-decoration: none;
 }
 
 .coolthings:hover {
-  color: #888D92;
+  color: #3D5392;
 }
 
 i {
   margin-left: 0.3em;
     /* color: #888D92; */
-  color: rgba(0, 0, 0, .44);
+  color: #A49392;
   cursor: pointer;
   transition: linear 0.2s;
   -moz-transition: linear 0.2s;
