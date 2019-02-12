@@ -1,58 +1,114 @@
-html {
-  /* border-top: 5px solid #6E8BE0; */
-    /* #6E8BE0 #E0CE41 #5C246E #68D771 #A49392 #6EE0A1 #3CBEFF*/;
+body, html {
+  margin: 0;
+  min-height: 100%;
 }
-
 body {
     font-family: "Avenir Next", sans-serif;
     text-align: justify;
     letter-spacing: -.1px;
     padding: 0 10px;
 }
-
+.header {
+    color: #222;
+    display: flex;
+    align-items: baseline;
+    margin-top: 15px;
+    flex-wrap: wrap;
+}
+.header a {
+    text-decoration: none;
+}
+.splash {
+    font-size: 60px;
+    font-weight: normal;
+    margin: 0;
+    color: #222;
+    text-decoration: none;
+}
+.splash > h1 {
+  background: #4776E6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(#4776E6, #8E54E9);
+  background: linear-gradient(#4776E6, #8E54E9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1em;
+  font-weight: normal;
+  margin: 0;
+}
+.page {
+  // height: 100%;
+    max-width: 770px;
+    margin-left: auto;
+    margin-right: auto;
+}
 h1 {
-    /* display: table; */
-  margin: 50 0 0 20;
+  margin: 50 0 0 0;
   font-family: "Avenir Next";
   font-weight: 400;
   letter-spacing: -2px;
   font-size: 2.5em;
   color: #A49392;
 }
-
 h2 {
   margin: 0 auto;
-  font-family: -apple-system, "BlinkMacSystemFont", Helvetica, sans-serif;
+  font-family: "Avenir Next", Helvetica, sans-serif;
   font-weight: 300;
   font-size: 1.5em;
-  color: #606060;
+  color: #888D92;
   letter-spacing: 0.25px;
   margin-bottom: 40px;
 }
-
-img {
-  float: left;
-  margin-right: 0.1em;
+.lead {
+  height: 60px;
 }
-
 li {
   list-style-position: outside;
   margin: 0 auto;
-  font-family: "Avenir Next", Helvetica, sans-serif;
-  font-weight: 400;
-  font-size: 1.5em;
   letter-spacing: 0.3px;
-  margin-bottom: 40px;
+  margin-bottom: 8px;
 }
-
-#name {
-  display: inline-block;
+.nav-wrap {
+    flex: 1;
+    text-align: right;
 }
-
-.em-zap {
-  font-size: 0.7em;
+.nav-wrap a {
+  text-decoration: none;
 }
-
+.nav {
+    margin-left: 10px
+}
+.tagline {
+    margin-left: -9px;
+    color: #a5a5a5;
+}
+#detail {
+  margin: 0 auto;
+  font-family: "Avenir Next", Helvetica, sans-serif;
+  letter-spacing: -0.25px;
+}
+#social-icons {
+  display: inline;
+  margin-left: 0.7em;
+}
+.social {
+  font-size: 1.7em;
+}
+.main {
+  margin: 30 80 30 80;
+}
+i {
+  margin-left: 0.3em;
+    /* color: #888D92; */
+  color: rgba(0, 0, 0, .44);
+  cursor: pointer;
+  transition: linear 0.2s;
+  -moz-transition: linear 0.2s;
+  -webkit-transition: linear 0.2s;
+  -ms-transition: linear 0.2s;
+}
+i:hover {
+  color: black;
+}
 ul {
   padding-left: 1.2em;
   overflow: hidden;
@@ -64,90 +120,10 @@ ol {
   overflow: hidden;
   list-style-type: circle;
 }
-
-#projects {
-  margin-bottom: 8px;
-}
-
-#site-url {
-  text-decoration: none;
-  color: #A49392;
-}
-
-.social {
-  font-size: 1.7em;
-}
-
-.main {
-  margin: 30 80 30 80;
-}
-
-#supportingText {
-  color: rgba(0, 0, 0, 0.3)
-}
-
-a:hover {
-  color: white;
-}
-
-#social-icons {
-  display: inline;
-  margin-left: 0.7em;
-}
-
-#detail {
-  margin: 0 auto;
-  font-family: "Avenir Next", Helvetica, sans-serif;
-  font-weight: 300;
-  font-size: 0.8em;
-  letter-spacing: -0.25px;
-  margin-bottom: 40px;
-}
-
-#footer {
-  text-align: center;
-}
-
-#goodreads {
-  text-decoration: none;
-  color: #888D92;
-}
-
-#author {
-  font-weight: 400;
-}
-
-.writing {
-  color: #6E8BE0;
-  text-decoration: none;
-}
-
-.writing:hover {
-  color: #3D5392;
-}
-
-.coolthings {
-  color: #6E8BE0;
-  text-decoration: none;
-}
-
-.coolthings:hover {
-  color: #3D5392;
-}
-
-i {
-  margin-left: 0.3em;
-    /* color: #888D92; */
-  color: #A49392;
-  cursor: pointer;
-  transition: linear 0.2s;
-  -moz-transition: linear 0.2s;
-  -webkit-transition: linear 0.2s;
-  -ms-transition: linear 0.2s;
-}
-
-i:hover {
-  color: black;
+blockquote {
+  border-left: 2px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0 0.5em;
 }
 
 /* Landscape phones and down */
