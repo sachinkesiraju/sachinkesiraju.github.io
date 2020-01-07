@@ -42,7 +42,8 @@ li {
   font-weight: 400;
   font-size: 1.5em;
   letter-spacing: 0.3px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
+  margin-top:20px;
 }
 
 #name {
@@ -100,21 +101,14 @@ a:hover {
   font-family: "Avenir Next", Helvetica, sans-serif;
   font-weight: 300;
   font-size: 0.8em;
-  letter-spacing: -0.25px;
-  margin-bottom: 40px;
+  letter-spacing: -0.20px;
+  margin-bottom: 25px;
+  text-align: left;
+  display: inline-block;
 }
 
 #footer {
   text-align: center;
-}
-
-#goodreads {
-  text-decoration: none;
-  color: #888D92;
-}
-
-#author {
-  font-weight: 400;
 }
 
 .writing {
@@ -136,7 +130,7 @@ a:hover {
 }
 
 i {
-  margin-left: 0.3em;
+  margin-left: 0.2em;
     /* color: #888D92; */
   color: #A49392;
   cursor: pointer;
@@ -166,12 +160,6 @@ i:hover {
     display: block;
     margin-left: 0px;
   }
-
-  #headshot {
-    float: none;
-    display:block;
-    margin:auto;
-  }
 }
 
 /* Landscape phones and down */
@@ -180,6 +168,10 @@ i:hover {
     float: left;
     margin: 10 0 0 0;
     padding: 0;
+  }
+
+  li {
+    margin-left: 20px;
   }
 
   .main {
@@ -199,6 +191,10 @@ i:hover {
     float: left;
     margin: 10 0 0 0;
     padding: 0;
+  }
+
+  li {
+    margin-left: 20px;
   }
 
   .main {
