@@ -58,7 +58,6 @@ a:active {
 }
 .title {
     margin-top: 20px;
-    margin-bottom: 40px;
     font-size: 1.125em;
     font-weight: bold;
     font-family: -apple-system, BlinkMacSystemFont, 'Source Sans Pro', sans-serif;
@@ -81,7 +80,8 @@ a:active {
     padding-left: 0;
 }
 #social-icons {
-  display: inline;
+  display: inline-block;
+  line-height: 1.5em;
 }
 .social {
   font-size: 0.7em;
@@ -110,8 +110,8 @@ a:active {
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
     .content {
-        margin-left: 0px;
         margin: 0 auto;
+        width: 90%;
     }
 }
 
